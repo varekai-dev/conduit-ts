@@ -9,21 +9,23 @@ export const Article: FC<ArticleProps> = () => {
 	return (
 		<article>
 			<div className="border-t border-black/10 py-6">
-				<div className="mb-4 font-light flex">
-					<Link to="/@serhijsav">
-						<img
-							src="https://api.realworld.io/images/demo-avatar.png"
-							alt="avatar"
-							className="inline-block h-8 w-8 rounded-full"
-						/>
-					</Link>
-					<div className="mr-6 ml-0.3 leading-4 inline-flex flex-col">
-						<Link to="/@serhijsav" className="font-medium">
-							John Doe
+				<div className="mb-4 font-light flex justify-between">
+					<div>
+						<Link to="/@serhijsav">
+							<img
+								src="https://api.realworld.io/images/demo-avatar.png"
+								alt="avatar"
+								className="inline-block h-8 w-8 rounded-full"
+							/>
 						</Link>
-						<span className="text-conduit-gray-500 text-date">
-							December 9, 2022
-						</span>
+						<div className="mr-6 ml-0.3 leading-4 inline-flex flex-col">
+							<Link to="/@serhijsav" className="font-medium">
+								John Doe
+							</Link>
+							<span className="text-conduit-gray-500 text-date">
+								December 9, 2022
+							</span>
+						</div>
 					</div>
 					<FavoriteButton />
 				</div>

@@ -18,7 +18,7 @@ export const Header: FC<HeaderProps> = () => {
 					<div className="flex justify-between items-center">
 						<Link
 							to="/"
-							className="font-titillilum text-2xl mr-8 text-conduit-green"
+							className="font-titillilum text-2xl mr-8 text-conduit-green hover:no-underline"
 						>
 							conduit
 						</Link>
