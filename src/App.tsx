@@ -5,7 +5,7 @@ import { Feed } from './modules/feed/components/feed/feed.component'
 
 export const App = () => {
 	return (
-		<div>
+		<div className="pb-16">
 			<Header />
 			<Banner />
 			<Feed />
